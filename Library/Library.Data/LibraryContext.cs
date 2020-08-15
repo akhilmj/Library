@@ -9,6 +9,7 @@ namespace Library.Data
         public LibraryContext(DbContextOptions options) : base(options) { }
 
         public DbSet<Users> Users { set; get; }
+        public DbSet<Books> Books { set; get; }
 
     }
 }
